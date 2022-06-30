@@ -1,5 +1,6 @@
 import { useRouter } from "next/router"
 import Link from "next/link"
+
 export default function codigoENome() {
     const router = useRouter()
     const codigo = router.query.codigo
